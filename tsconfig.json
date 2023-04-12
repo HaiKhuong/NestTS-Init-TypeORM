@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@config/*": ["src/config/*"],
+      "@database/*": ["src/database/*"],
+      "@i18n/*": ["src/i18n/*"],
+      "@mail/*": ["src/mail/*"],
+      "@admin/*": ["src/modules/admin/*"],
+      "@apps/*": ["src/modules/apps/*"],
+      "@auth/*": ["src/modules/auth/*"],
+      "@auth-social/*": ["src/modules/auth-social/*"],
+      "@social/*": ["src/social/*"],
+      "@utils/*": ["src/utils/*"],
+      "@decorators/*": ["src/common/decorators/*"],
+      "@guards/*": ["src/common/guards/*"],
+      "@filters/*": ["src/common/filters/*"],
+      "@interceptor/*": ["src/common/interceptor/*"],
+      "@pipes/*": ["src/common/pipes/*"],
+      "@/*": ["src/*"]
+    }
+  }
+}
